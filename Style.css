@@ -1,0 +1,98 @@
+*{
+	margin: 1.5px;
+	padding:0;
+	font-family:Century Gotihc; 
+}
+header{
+	background-image:url(assests/pexels-photo-3326215.jpeg);
+	height: 800px;
+	background-size: cover;
+	background-position: center;
+
+}
+ul{
+	float: right;
+	list-style-type: none;
+	
+}
+ul li{
+	display: inline-block;
+
+}
+ul li a{
+	text-decoration-style: none;
+	color:white;
+	padding: 5px 20px;
+	border: 1px solid white;
+}
+ul li a:hover{
+	background-color: white;
+	color: #000;
+}
+.logo img{
+	float:left;
+	width:150px;
+	height: auto;
+}
+.main{
+	max-width: 1200px;
+	margin:auto;
+
+}
+.tittle{
+	position: absolute;
+	top: 30%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+p{
+	color: white;
+	left: 30px;
+}
+.tittle h1{
+	color: red;
+	font size: 50px;
+}
+.button{
+	position: absolute;
+	top:40%;
+	left:60%;
+	transform: translate(-50%,-50%);
+
+}
+.btn{
+	border:cover  #fff;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+}
+.btn:hover{
+	background-color: white;
+	color: #000;
+
+}
+.main1{
+	height: 100px;
+	left: 50%;
+	background-size: cover;
+	background-position:left;
+
+}
+
+.imagebox {
+	float: left;
+	text-align: center;
+	overflow: hidden;
+  width: 50%;
+  float: left;
+  padding-top: 20px;
+}
+
+.textbox {
+  width: 50%;
+  float: right;
+  text-align: center;
+  padding-top: 20px;
+  background-color: #666;
+  color: #fff;
+}
